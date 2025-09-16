@@ -58,7 +58,7 @@ class LayoutListitem extends StatelessWidget {
           final item = items[index];
           return ListTile(
             title: item.buildTitle(context),
-            subtitle: item.buildSubtitle(context),
+            subtitle: item.buildSubtitle(context),                                                                                                                                                                                                                                                                                                                                         
           );
         },
       )
