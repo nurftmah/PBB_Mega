@@ -7,7 +7,7 @@ class LayoutListView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('ListView Vertikal'),),
       body: ListView(
-        children: <Widget> [
+        children: const <Widget> [
           ListTile(
             leading: Icon(Icons.map),
             title: Text('Map'),

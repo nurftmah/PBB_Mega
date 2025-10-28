@@ -6,7 +6,7 @@ class LayoutHorizontal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('ListView Horizontal'),),
+      appBar: AppBar(title: const Text('ListView Horizontal'),),
       body: SizedBox(
         height: 150,
         child: ListView(

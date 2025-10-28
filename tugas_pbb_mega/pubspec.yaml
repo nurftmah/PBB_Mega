@@ -19,3 +19,5 @@ flutter:
   uses-material-design: true
   assets:
   - images/kamari.jpg
+  - images/profilmg.jpeg
+  - images/profil.jpeg

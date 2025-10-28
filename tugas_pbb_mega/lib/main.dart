@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tugas_pbb_mega/tugas3.dart';
-
+import 'package:tugas_pbb_mega/listViewBuilder.dart';
+import 'package:tugas_pbb_mega/lthn_listNgrid.dart';
 
 
 void main() {
@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       title: "Aplikasi Pribadi",
       debugShowCheckedModeBanner: false,
-      home: Tugas3()
+      home: ListViewBuilder()
     );
   }
 }

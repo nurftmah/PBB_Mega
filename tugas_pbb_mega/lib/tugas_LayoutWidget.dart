@@ -9,29 +9,33 @@ class LayoutWidget extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Profil Saya'),//Judul Appbar
       ),
-      body: Column(
+      body: const Column(
         children:[
-          Image.asset('Image/pic.png'),//Gambar 
+          CircleAvatar(
+            radius: 80,
+            backgroundImage: AssetImage('images/profilmg.jpeg'
+          ),
+           ), //Avatar Bulat 
 
-          const SizedBox(height: 10),//Spasi Vertikal
+          SizedBox(height: 10),//Spasi Vertikal
 
           //Judul Utama
-          const Text(
+          Text(
             'Mega Nur Fatimah',
             style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold),
           ),
-          const SizedBox(height: 10),
+          SizedBox(height: 10),
 
           //Subjudul
-          const Text(
+          Text(
             'Siswa SMK YPC',
              style: TextStyle(color: Color.fromARGB(255, 234, 98, 144),),
           ),
           
-          const SizedBox(height: 10),//Spasi Sebelum Icon
+          SizedBox(height: 10),//Spasi Sebelum Icon
 
           //Baris Icon dan Label
-          const Row(
+          Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Column(children: [Icon(Icons.call),Text('Call')]),
