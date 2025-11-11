@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tugas_pbb_mega/listViewBuilder.dart';
-import 'package:tugas_pbb_mega/lthn_listNgrid.dart';
-
+import 'package:tugas_pbb_mega/form_validation.dart';
 
 void main() {
   runApp(const MainApp());
@@ -15,7 +13,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       title: "Aplikasi Pribadi",
       debugShowCheckedModeBanner: false,
-      home: ListViewBuilder()
+      home: FormValidation()
     );
   }
 }
